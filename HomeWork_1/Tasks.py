@@ -62,4 +62,4 @@
 # if (k % n == 0 or k % m == 0) and k < s:
 #     print("yes")
 # else :
-#     print("no")
+#     print("no") 
