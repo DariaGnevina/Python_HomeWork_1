@@ -3,9 +3,9 @@
 # Формула для получения n-го члена прогрессии: an = a1 + (n-1) * d.
 # Каждое число вводится с новой строки.
 
-a1 = int(input())
-d = int(input())
-n = int(input())
+a1 = int(input("Введите первый элемент:"))
+d = int(input("Введите разность:"))
+n = int(input("Введите количество элементов:"))
 for i in range(n):
    print(a1 + i * d)
 
@@ -20,5 +20,5 @@ list_1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 min_number = int(input())
 max_number = int(input())
 for i in range(len(list_1)):
-   if min_number <= list_1[i] <= max_number:
-      print(i)
+    if min_number <= list_1[i] <= max_number:
+       print(i)

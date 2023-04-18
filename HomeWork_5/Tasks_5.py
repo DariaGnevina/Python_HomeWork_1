@@ -6,14 +6,14 @@
 
 
 
-def function(a,b):
-    if b == 0:
-        return 1
-    else:
-        return a * function(a, b -1)
-x = int(input("Введите число А:"))
-y = int(input("Введите число B:"))
-print(function(x,y))
+# def function(a,b):
+#     if b == 0:
+#         return 1
+#     else:
+#         return a * function(a, b -1)
+# x = int(input("Введите число А:"))
+# y = int(input("Введите число B:"))
+# print(function(x,y))
 
 
 # Задача 28: Напишите рекурсивную функцию sum(a, b), возвращающую сумму двух целых неотрицательных чисел.
@@ -22,10 +22,24 @@ print(function(x,y))
 # 2 2
 #     4 
 
-def summa(a,b):
-    if a == 0:
-        return b
-    return summa(a - 1, b + 1)
-x = int(input("Введите число А:"))
-y = int(input("Введите число B:"))
-print(summa(x,y))
+# def summa(a,b):
+#     if a == 0:
+#         return b
+#     return summa(a - 1, b + 1)
+# x = int(input("Введите число А:"))
+# y = int(input("Введите число B:"))
+# print(summa(x,y))
+
+# Задача про палиндром (провер с пом рекурсии)
+
+# def palindrome(a):
+#     if len(a) <= 1:
+#        return print('Это палиндром')
+#     elif a[0] == a[-1]:
+#        palindrome(a[1:-1])
+#     else:
+#       return print('Это НЕ палиндром')
+
+
+# a = input("Введите текст: ")
+# palindrome(a)
